@@ -18,5 +18,5 @@ This repository provides a structured overview of core concepts, theorems, and p
 ## 📈 Use Cases
 
 - Academic revision
-- ML/DS interview prep
+- ML/DS
 - Foundation for statistical modeling
