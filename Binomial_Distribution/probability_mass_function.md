@@ -55,7 +55,8 @@ So there is a **31.25%** chance of getting exactly 2 heads in 5 tosses.
 
 ### **3. Expected Value and Variance**
 
-For $`X \sim \operatorname{Bin}(n, p)`$:
+For $`X \sim \operatorname{Bin}(n, p)`$ :
+
 - **Expected Value (Mean):**
   $`\mathbb{E}[X] = np`$
 
@@ -182,11 +183,14 @@ So, there is about a **5.47%** chance the student gets at least 8 correct answer
 - **PMF at a Point:** $`P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k}`$  
   *Example:* $`P(\text{2 heads in 5 tosses}) = 0.3125`$.
 
+
 - **Unbounded Interval:** $`P(X \geq k) = \sum_{x=k}^{n} P(X = x)`$  
   *Example:* $`P(\text{at least 8 free throws out of 10, } p=0.7) \approx 0.3828`$.
 
+
 - **Bounded Interval:** $`P(a \leq X \leq b) = \sum_{x=a}^{b} P(X = x)`$  
   *Example:* $`P(12 \leq X \leq 14 \text{ non-defective items out of 15, } p=0.95) \approx 0.9078`$.
+
 
 - **Complement Rule:** $`P(X \geq k) = 1 - P(X \leq k-1)`$  
   *Example:* $`P(\text{at least 8 correct answers out of 10, } p=0.25) \approx 0.0547`$.
