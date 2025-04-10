@@ -7,6 +7,7 @@ and with the same probability of success on each trial.
 
 If a random variable $X$ represents the number of successes in $n$ trials, and the probability of success on each trial is $p$, then:
 
+
 $`X \sim \operatorname{Bin}(n, p)`$
 
 where:
@@ -55,7 +56,7 @@ So there is a **31.25%** chance of getting exactly 2 heads in 5 tosses.
 
 ### **3. Expected Value and Variance**
 
-For $`X \sim \operatorname{Bin}(n, p)`$ :
+For $`X \sim \operatorname{Bin}(n, p)`$
 
 - **Expected Value (Mean):**
   $`\mathbb{E}[X] = np`$
