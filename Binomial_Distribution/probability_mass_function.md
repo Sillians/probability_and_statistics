@@ -11,7 +11,7 @@ If a random variable $X$ represents the number of successes in $n$ trials, and t
 $`X \sim \operatorname{Bin}(n, p)`$
 
 where:
-- **$n$** is the number of trials.
+- **$n$** is the number of trials or experiments.
 - **$p$** is the probability of a success in a single trial.
 - **$X$** is the total number of successes out of $n$ trials.
 
