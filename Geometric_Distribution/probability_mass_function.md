@@ -4,7 +4,9 @@
 
 ### **1. Overview**
 
-The **Geometric Distribution** models the number of **Bernoulli trials** until the **first success**. 
+The **Geometric Distribution** models the number of **Bernoulli trials** until the **first success**.
+A geometric distribution is used to model the number of binomial experiments needed before the first success.
+
 It answers the question:
 
 > "What is the probability that the first success occurs on the $k$-th trial?"
